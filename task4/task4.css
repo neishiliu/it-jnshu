@@ -1,0 +1,30 @@
+body{
+  width:100%;
+  font-size:62.5%;
+  margin:0px;
+  background:eff0f4;
+  font-color:#fff;
+}
+.header{
+  background:#5fc0cd;
+  height:90px;
+  width:100%;
+  position:fixed;
+  margin:0px;
+}
+#left{
+  float:left;
+  margin-top:4%;
+  margin-left:4%;
+}
+#center{
+  margin:0em 50%;
+  width:60px;
+  padding-top:4%;
+}
+#right{
+  position:absolute;
+  top:4%;
+  right:4%;
+  padding-top}
+}
