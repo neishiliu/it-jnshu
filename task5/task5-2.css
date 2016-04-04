@@ -1,0 +1,113 @@
+*{margin:0;padding:0;}
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 40%;
+    }
+}
+html{
+    font-size:62.5%;
+    font-family:"Microsoft Yahei",serif;
+}
+body{
+    min-width:480px;
+    max-width:720px;
+    margin:0 auto;
+}
+header{
+    background: #5fc0cd;
+
+    width:100%;
+    padding:1% 0;
+    text-align:center;
+    position:relative;
+
+}
+header img{
+    position:absolute;
+    top:25%;
+    right:5%;
+}
+.center a{
+    text-decoration: none;
+    font-size: 3.4em;
+    line-height: 2.7;
+    text-align: center;
+    padding: 20px 25px;
+}
+.left{
+    background: #55a8b3;
+    color:#fff;
+    border-radius:5px;
+}
+.right{
+    background: #fff;
+    color: #5fc0cd;
+    border-radius:5px;
+    margin-left:-2px;
+}
+table{
+    width:100%;
+}
+.select th{
+    color:#999;
+    font-size:2.8em;
+    font-weight:normal;
+    line-height:3;
+    border-bottom: 1px solid #999;
+}
+.select th:nth-child(2){
+    border-left:1px solid #999;
+    border-right:1px solid #999;
+}
+.term td{
+    border-bottom: 1px solid #999;
+    font-size:2.8em;
+    line-height:2;
+    color:#999;
+}
+.term td p img{
+    margin-right:1em;
+}
+.term td p{
+    margin-left:2em;
+}
+.date{
+    color:#000;
+    text-indent:3.8em;
+}
+.price p{
+    color:#e63b0e;
+}
+.price img{
+    margin-left:1em;
+}
+footer{
+    position:fixed;
+    bottom:0;
+    background:#f8fafb;
+}
+.foot{
+    display:flex;
+    min-width:720px;
+    align-items:center;
+    text-align:center;
+}
+.foot .foot-left{
+    flex:1;
+}
+.foot .foot-center{
+    flex:1
+}
+.foot .foot-right{
+    flex:1;
+}
+.foot-left p{
+     font-size:2.6em;
+     color:#5fc0cd;
+     line-height: 2em;
+ }
+.foot-right p{
+    font-size:2.6em;
+    color:#999;
+    line-height: 2em;
+}
