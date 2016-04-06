@@ -1,0 +1,114 @@
+*{margin:0;padding:0;}
+html{
+    font-size:47.6%;/********chrome浏览器下字体大小默认为21px，此处设为47.6%为使默认字体大小为10px**********/
+    font-family:"Microsoft YaHei",serif;
+    color:#fff;
+}
+body{
+    width:100%;height:100%;
+    max-width:640px;
+    min-width: 360px;
+    margin: 0 auto;
+}
+.left,.right,.img{
+    background:url(images/img2.png) no-repeat; )
+}
+header{
+    background:#29bde0;
+    text-align: center;
+    position: relative;
+    padding: 2.5% 0;
+    border-bottom:1px solid #74d4eb;
+}
+header .left{
+    height:42px;width:51px;background-position: 0 0;
+    position: absolute;
+    top:17%;
+    left:3%;
+}
+header p{
+    font-size:3.4rem;
+}
+header .right{
+    height:42px;width:40px;background-position: -52px 0;
+    position: absolute;
+    top: 17%;
+    right: 3%;
+}
+.content-top{
+    background:#29bde0;
+}
+.content-top .img{
+    height:205px;width:349px;background-position: 0 -43px;
+    margin:0 auto;
+    padding-bottom:3.4%;
+}
+.victory{
+    padding:4% 0 10%;
+}
+.victory p{
+    width:75.7%;
+    font-size:3.3rem;
+    color:#ffc865;
+    margin:0 auto;
+}
+.total{
+    width:75.5%;
+    margin:0 auto;
+    font-size: 2.6rem;
+    font-weight: 200;
+}
+.vocabulary{
+    width:75.5%;
+    margin:0 auto;
+    font-size: 2.6rem;
+    font-weight: normal;
+    padding-bottom: 4%;
+}
+.content-bottom ul li{
+    list-style:none;
+    font-size:2.6rem;
+    font-weight:200;
+    color:#a6a6a6;
+    border-bottom: 1px solid #ddd;
+    padding:0 12.2% ;
+    position: relative;
+}
+h3{
+    font-size:3rem;
+    color:#515151;
+    font-weight:normal;
+    padding-top:10px;
+}
+li .kill{
+    line-height: 3rem;
+    padding:5.5% 0;
+}
+li span{
+    position: absolute;
+    right:20%;
+    top:0;
+    padding-top:10px;
+}
+footer{
+    background:rgba(41,189,224,0.48);
+    overflow: hidden;
+    position:fixed;
+    bottom:0;
+    width:640px;
+}
+.again,.upload{
+    padding:25px 55px;
+    border-radius: 15px;
+    font-size:4rem;
+    font-family:"Microsoft YaHei",serif;
+    color:#fff;
+    margin:25px;
+}
+.again{
+    background:#f66f6f;
+}
+.upload{
+    background:#f66f6f;
+    float:right;
+}
