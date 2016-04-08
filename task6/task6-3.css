@@ -40,7 +40,7 @@ h1{
 	padding:4.6% 0 4.6% 7.5%;
 	position:relative;
 	}
-.title:after{
+.title:after{       /**利用after伪类使用border画尖角三角形**/
 	content:"";
 	position:absolute;
 	left:7%;
@@ -130,11 +130,13 @@ footer{
 	position: fixed;
 	bottom: 0;
 }
-form{
+a{
+	display: block;
 	border-top: 1px solid #ddd;
 	padding: 6% 0 9%;
+	text-decoration: none;
 }
-input{
+footer p{
 	width:76%;
 	margin:0 auto;
 	background: #fbb435;

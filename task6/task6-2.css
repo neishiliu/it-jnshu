@@ -11,7 +11,7 @@ body{
     margin: 0 auto;
 }
 .left,.right,.img{
-    background:url(images/img2.png) no-repeat; )
+    background:url(images/img2.png) no-repeat; )/*Ñ©±ÌÍ¼ËùÓÃ±³¾°Í¼Æ¬*/
 }
 header{
     background:#29bde0;
@@ -91,24 +91,26 @@ li span{
     padding-top:10px;
 }
 footer{
-    background:rgba(41,189,224,0.48);
+    background:rgba(41,189,224,0.48);/*±³¾°É«µ÷Îª48%°ëÍ¸Ã÷*/
     overflow: hidden;
     position:fixed;
     bottom:0;
-    width:640px;
+    width:100%;
+    max-width: 640px;
+    padding-top: 4%;
 }
 .again,.upload{
-    padding:25px 55px;
+    padding:4% 7.8%;
     border-radius: 15px;
     font-size:4rem;
     font-family:"Microsoft YaHei",serif;
     color:#fff;
-    margin:25px;
+    margin: 0 4% 4% 7%;
+    float:left;
 }
 .again{
     background:#f66f6f;
 }
 .upload{
-    background:#f66f6f;
-    float:right;
+    background:#fbb435;
 }
