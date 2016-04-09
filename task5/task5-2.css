@@ -1,9 +1,4 @@
 *{margin:0;padding:0;}
-@media screen and (max-width: 480px) {
-    html {
-        font-size: 40%;
-    }
-}
 html{
     font-size:62.5%;
     font-family:"Microsoft Yahei",serif;
@@ -110,4 +105,9 @@ footer{
     font-size:2.6em;
     color:#999;
     line-height: 2em;
+}
+@media screen and (max-width: 640px){
+    html{
+        font-size:40%;
+    }
 }

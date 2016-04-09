@@ -146,3 +146,8 @@ footer p{
 	font-weight:200;
 	font-family:"Microsoft Yahei", serif;
 }
+@media screen and (max-width: 640px){
+	html{
+		font-size:40%;
+	}
+}

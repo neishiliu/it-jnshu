@@ -115,3 +115,8 @@ footer{
 .upload{
     background:#fbb435;
 }
+@media screen and (max-width: 640px){
+    html{
+        font-size:40%;
+    }
+}

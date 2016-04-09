@@ -114,4 +114,8 @@ footer .right{
 	border-radius:10px;
 	float:left;
 	}
-
+@media screen and (max-width: 640px){
+	html{
+		font-size:40%;
+	}
+}
