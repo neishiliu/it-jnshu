@@ -106,7 +106,7 @@
     display:none;
 }
 /***轮播图部分结束***/
-.advantage{width:1080px;margin:9% auto 0;}
+.advantage,.learn,.great,.cooperation,.link{width:1080px;margin:9% auto 0;}
 .advantage1{
     width:230px;
     height:238px;
@@ -118,10 +118,144 @@
 .standard-img{height:55px;width:60px;background-position: -215px 0;}
 .contacts-img{height:55px;width:55px;background-position: -160px 0;}
 .icon-1{height:13px;width:13px;background-position: 0 0;}
-.advantage1 p{font-size: 1.6rem;color:#999;line-height: 2.6rem;float:left;}
-.advantage1 h3{margin:30px 0;}
-.standard{margin:0 50px;}
-
-.learn{
-    clear: both;
+.advantage1 p{
+    font-size: 1.6rem;
+    color:#999;
+    line-height: 2.6rem;
+    float:left;
 }
+.advantage1 h3{
+    margin:30px 0;
+}
+.standard{
+    margin:0 50px;
+}
+.advantage1 p{text-align: left;}
+.total div{
+    margin-top: 55px;
+}
+.total p{
+    font-size: 1.8rem;
+}
+.total{
+    margin-left: 25px;
+    padding-left: 25px;
+    border-left: 2px #dedede dashed;
+}
+
+/***如何学习部分***/
+.main{position: relative;}
+.learn{
+    position: relative;
+    top: 130px;
+}
+.learn li{display: inline-block;}
+.learn li p{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #999;
+    width:140px;
+    margin-top:5px;
+}
+.circle{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    color: #29b078;
+    font-size: 1.8rem;
+    line-height: 70px;
+    text-align: center;
+    margin-right:12px;
+}
+.next{
+    height:26px;width:27px;background-position: -88px 0;
+    display: inline-block;
+    margin:0 12px;
+}
+.step1-4{
+}
+.step5-8{margin-top:90px;}
+.learn h3{margin-bottom: 70px;}
+
+/***优秀学员展示部分***/
+.great{position: relative;top:130px;}
+.great h3{margin-top: 50px;}
+.student{
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin: 80px 12px 0;
+}
+.touxiang{
+    display: inline-block;
+    margin: 20px 0 35px 0;
+}
+.student h4{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.student p{
+    width: 200px;
+    padding: 0 20px 30px;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #999;
+}
+.more{position: relative;left:47%;bottom:-20px;}
+.circle2{
+    width: 15px;height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle2:hover{background: #29b078;}
+
+/****战略合作企业部分****/
+.cooperation{position: relative;top:130px;}
+.cooperation h3{margin-bottom: 70px;}
+.logo2{
+    display: table-cell;
+    background: #fff;
+    text-align: center;
+    height: 230px;
+    vertical-align: middle;
+}
+.logo2 div{
+    display: inline-block;
+    width: 210px;
+}
+
+/****友情链接部分*****/
+.link{
+    width: 100%;
+    height: 130px;
+    margin: 220px 0 0;
+    background: #fff;
+}
+.link h3{
+    font-size: 1.8rem;
+    color:#333;
+    padding: 20px 0
+}
+.link ul{
+    margin: 0 auto;
+    width: 1080px;
+}
+.link ul li{
+    display: inline-block;
+    margin: 0 23px;
+}
+.link .link-bottom{margin-top: 15px;}
+.link ul li:nth-child(1){margin:0;}
+.link ul li:nth-child(10){margin:0;}
+.link ul li a{
+    color:#999;
+    font-size: 1.4rem;
+}
+.link ul li a:hover{border-bottom:1px solid #29b078;}
