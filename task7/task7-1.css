@@ -1,0 +1,127 @@
+/*****轮播图部分代码*****/
+#wrap {
+    position:relative;
+    width:1360px;
+    height:425px;
+    margin:0 auto;
+    overflow:hidden;
+}
+
+#slider {
+    width:300%;
+    height:100%;
+    -webkit-animation:slide1 10s ease-out infinite;
+}
+#slider li {
+    float: left;
+    width:1360px;
+    height:425px;
+}
+
+/*创建三种动画策略*/
+@-webkit-keyframes slide1 {
+    0% { margin-left: 0;}
+    23% { margin-left: 0;}
+    33% { margin-left: -1360px;}
+    56% { margin-left: -1360px;}
+    66% { margin-left: -2720px;}
+    90% {margin-left:-2720px;}
+    100% {margin-left: 0;}
+}
+
+@-webkit-keyframes slide2 {
+    0% { margin-left:-2720px;}
+    23% { margin-left:-2720px;}
+    33% { margin-left:-5440px;}
+    56% { margin-left:-5440px;}
+    66% { margin-left:0;}
+    90% { margin-left:0;}
+    100% {margin-left:-5440px;}
+}
+
+@-webkit-keyframes slide3 {
+    0% { margin-left:-5440px;}
+    23% { margin-left:-5440px;}
+    33% { margin-left:0;}
+    56% { margin-left:0;}
+    66% { margin-left:-2720px;}
+    90% { margin-left:-2720px;}
+    100% {margin-left:-5440px;}
+}
+
+
+/*修改动画名称*/
+#l01:checked ~ #wrap #slider {
+    -webkit-animation-name:slide1;
+}
+
+#l02:checked ~ #wrap #slider {
+    -webkit-animation-name:slide2;
+}
+
+#l03:checked ~ #wrap #slider {
+    -webkit-animation-name:slide3;
+}
+
+
+/*短暂地取消动画名称，模拟重启动画*/
+#l01:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:0;
+}
+
+#l02:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-2720px;
+}
+
+#l03:active ~ #wrap #slider {
+    -webkit-animation-name:none;
+    margin-left:-5440px;
+}
+
+
+#opts {
+    position: absolute;
+    top:87%;
+    left:50%;
+}
+
+#opts label {
+    float:left;
+    width:10px;
+    height:10px;
+    border-radius: 50%;
+    margin-right:4px;
+    background:#29b078;
+    cursor:pointer;
+}
+
+#opts label:hover {
+    background:#fff;
+}
+
+/* 隐藏Input按钮*/
+#l01, #l02, #l03 {
+    display:none;
+}
+/***轮播图部分结束***/
+.advantage{width:1080px;margin:9% auto 0;}
+.advantage1{
+    width:230px;
+    height:238px;
+    float:left;
+    text-align: center;
+    margin:0;
+}
+.efficient-img{height:63px;width:45px;background-position: -115px 0;}
+.standard-img{height:55px;width:60px;background-position: -215px 0;}
+.contacts-img{height:55px;width:55px;background-position: -160px 0;}
+.icon-1{height:13px;width:13px;background-position: 0 0;}
+.advantage1 p{font-size: 1.6rem;color:#999;line-height: 2.6rem;float:left;}
+.advantage1 h3{margin:30px 0;}
+.standard{margin:0 50px;}
+
+.learn{
+    clear: both;
+}
