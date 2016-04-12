@@ -1,0 +1,5 @@
+/***返回连接部分****/
+.back-link{font-size: 1.6rem;padding:30px 0;color:#333;border-bottom: 1px solid #d0d6d9;}
+.back-link span{color:#29b078;}
+.back-link a{color:#333;text-decoration: none;}
+.back-link a:hover{color:#29b078;}
