@@ -4,7 +4,7 @@ body{
     min-width: 1080px;
     margin:0 auto;
     font-family: "Microsoft YaHei", serif;
-    color:#000;
+    color:#333;
     font-weight: normal;
     background: #fafafa;
 }
@@ -26,7 +26,7 @@ h3{
 }
 i{display:inline-block;}
 .img{background:url(images/img.png) no-repeat;}
-/*****顶部联系电话部分*****/
+/*****椤堕儴鑱旂郴鐢佃瘽閮ㄥ垎*****/
 .header-top{
     background: #fff;
     width:100%;
@@ -57,7 +57,7 @@ i{display:inline-block;}
 .weixin{
     height:25px;width:25px;background-position: -13px 0;
 }
-/*****顶部联导航栏部分*****/
+/*****椤堕儴鑱斿鑸爮閮ㄥ垎*****/
 .header-bottom{
     background: #29b078;
     position: relative;
@@ -82,7 +82,7 @@ i{display:inline-block;}
 }
 nav li a{padding:47px 25px 37px;}
 nav li a:hover{border-bottom: 5px solid #fff;}
-/*****网页底部统一样式*****/
+/*****缃戦〉搴曢儴缁熶竴鏍峰紡*****/
 footer{
     background: #29b078;
     font-size: 1.6rem;
