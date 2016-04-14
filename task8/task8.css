@@ -1,3 +1,4 @@
+.header-bottom .selected{border-bottom:5px solid #fff;}
 .back-link{font-size: 1.6rem;padding:30px 0;color:#333;border-bottom: 1px solid #d0d6d9;}
 .back-link span{color:#29b078;}
 .back-link a{color:#333;text-decoration: none;}
@@ -108,9 +109,29 @@ table{
 	font-weight: 500;
 }
 .frontend1 .reverse p{padding: 0 40px;text-indent: 2em;}
-.main .all .frontend li.frontend1:hover div.reverse{
-	transform:rotateY(0deg);
+.main .all li ul .frontend1:hover .reverse{
 	transition:transform 0.5s linear 0.2s;
+	transform:rotateY(0deg);
 }
-
 /***翻转卡片样式结束***/
+
+.main .all li ul .frontend1:nth-child(3){margin:45px 26px 30px;}/***调节卡片间距***/
+.main .all li ul .frontend1:nth-child(6){margin:45px 26px 30px;}/***调节卡片间距***/
+
+/***返回顶部部分****/
+.backtop{
+	font-size:1.5rem;
+	color:#fff;
+	text-align:center;
+	padding:5px;
+	width:40px;
+	height:40px;
+	border-radius:5px;
+	background:#29b078;
+	position:fixed;
+	right:30px;
+	bottom:210px;
+	}	
+.backtop a:hover{
+	text-decoration: none;
+	}
