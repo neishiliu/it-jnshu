@@ -16,7 +16,7 @@
     <div class="bottom">
        <nav>
            <ul>
-               <li><a href="#" class="select">首页</a> </li>
+               <li class="select"><a href="#">首页</a> </li>
                <li><a href="#">在线定制</a></li>
                <li><a href="#">标准箱</a></li>
                <li><a href="#">品质保证</a></li>
@@ -27,10 +27,18 @@
 <div class="main">
     <div class="step">
         <ul>
-            <li class="step-select">1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <li class="line step-select"></li>
+            <li class="step-select">1<span>1.定制纸箱</span></li>
+            <li class="line step-select"></li>
+            <li class="line"></li>
+            <li>2<span>2.选择数量</span></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li>3<span>3.上传附件</span></li>
+            <li class="line"></li>
+            <li class="line"></li>
+            <li>4<span>4.确认下单</span></li>
+            <li class="line"></li>
         </ul>
     </div>
     <div class="content">
@@ -42,11 +50,11 @@
             </li>
             <li>
                 <form action="#" method="post" class="left">
-                    <input type="radio" name="box-type" value="type1" id="type1" checked>
+                    <input type="radio" name="box-type" value="type1" id="type1" checked><span></span>
                     <label for="type1">对口箱</label>
-                    <input type="radio" name="box-type" value="type2" id="type2">
+                    <input type="radio" name="box-type" value="type2" id="type2"><span></span>
                     <label for="type2">飞机盒</label>
-                    <input type="radio" name="box-type" value="type3" id="type3">
+                    <input type="radio" name="box-type" value="type3" id="type3"><span></span>
                     <label for="type3">天地盖</label>
                 </form>
                 <form action="#" method="post" class="right">
@@ -62,14 +70,14 @@
                 确定尺寸
             </li>
             <li>
-                <form action="#" method="post" >
-                    <input type="radio" name="size" value="size1" id="size1" checked>
+                <form action="#" method="post" class="left">
+                    <input type="radio" name="size" value="size1" id="size1" checked><span></span>
                     <label for="size1">外径</label>
                     <lable for="size1-long">长</lable><input type="text" name="size1-long" id="size1-long"><label for="size1-long">mm</label>
                     <lable for="size1-width">宽</lable><input type="text" name="size1-width" id="size1-width"><label for="size1-width">mm</label>
                     <lable for="size1-height">高</lable><input type="text" name="size1-height" id="size1-height"><label for="size1-height">mm</label>
-                    <br/>
-                    <input type="radio" name="size" value="size2" id="size2">
+                    <div></div>
+                    <input type="radio" name="size" value="size2" id="size2"><span></span>
                     <label for="size2">内径</label>
                     <lable for="size2-long">长</lable><input type="text" name="size2-long" id="size2-long"><label for="size2-long">mm</label>
                     <lable for="size2-width">宽</lable><input type="text" name="size2-width" id="size2-width"><label for="size2-width">mm</label>
@@ -89,17 +97,16 @@
                 选择材质
             </li>
             <li>
-                >
                 <form action="#" method="post" class="left">
-                    <input type="radio" name="texture" value="texture1" id="texture1" checked>
+                    <input type="radio" name="texture" value="texture1" id="texture1" checked><span></span>
                     <label for="texture1">三层A瓦优质</label>
-                    <input type="radio" name="texture" value="texture2" id="texture2">
+                    <input type="radio" name="texture" value="texture2" id="texture2"><span></span>
                     <label for="texture2">三层A瓦优质</label>
-                    <input type="radio" name="texture" value="texture3" id="texture3">
+                    <input type="radio" name="texture" value="texture3" id="texture3"><span></span>
                     <label for="texture3">三层A瓦优质</label>
-                    <input type="radio" name="texture" value="texture4" id="texture4">
+                    <input type="radio" name="texture" value="texture4" id="texture4"><span></span>
                     <label for="texture4">三层A瓦优质</label>
-                    <input type="radio" name="texture" value="texture5" id="texture5">
+                    <input type="radio" name="texture" value="texture5" id="texture5"><span></span>
                     <label for="texture5">三层A瓦优质</label>
                 </form>
                 <form action="#" method="post" class="right">
@@ -129,14 +136,13 @@
                 <li><a href="#">下单指南</a> </li>
                 <li><a href="#">媒体介绍</a> </li>
             </ul>
-            <p class="contact">
-                TEL：400-0000-000
-                <br/>
-                企业QQ：123456789
-                <br/>
-                微信号：XXXXXXXXX
+            <div class="contact">
                 <img src="images/weixin.png" alt="关注微信">
-            </p>
+                TEL：400-0000-000
+                企业QQ：123456789
+                微信号：XXXXXXXXX
+
+            </div>
         </li>
         <li class="footer-bottom">
             北京五一包装科技有限公司Copyright ©2015&nbsp;&nbsp;&nbsp;51baozhuang.com015 All rights reserved. 京icp备99999999-1
