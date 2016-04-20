@@ -7,7 +7,11 @@ body{
     background: #fafafa;
 }
 
-
+h3{
+    font-size: 1.8rem;
+    color:#333;
+    font-weight: 600;
+}
 .header-top .span{
     color:#29b078;
     font-size:1.4rem;
@@ -23,10 +27,13 @@ body{
 .weixin{
     height:25px;width:25px;background-position: -13px 0;
 }
+.advantage1{
+    margin-top: 30%;
+}
 
 .efficient-img{height:63px;width:45px;background-position: -115px 0;}
-.standard-img{height:55px;width:60px;background-position: -215px 0;}
-.contacts-img{height:55px;width:55px;background-position: -160px 0;}
+.standard-img{height:63px;width:60px;background-position: -215px 0;}
+.contacts-img{height:63px;width:55px;background-position: -160px 0;}
 .icon-1{height:13px;width:13px;background-position: 0 0;}
 .advantage1 p{
     font-size: 1.6rem;
@@ -35,4 +42,40 @@ body{
 }
 .advantage1 h3{
     margin:30px 0;
+}
+.left-border{
+    padding: 15% 20% 10% 20%;
+    border-left:2px dashed #999;
+}
+
+.learn li{display: inline-block;}
+.learn h3{
+    margin:5rem 0 2rem;
+}
+.learn li p{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #999;
+    margin-top:5px;
+    width: 12rem;
+    text-align: left;
+}
+.circle{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    color: #29b078;
+    font-size: 1.8rem;
+    line-height: 60px;
+    text-align: center;
+    margin-right:8px;
+}
+.next{
+    height:26px;width:27px;background-position: -88px 0;
+    display: inline-block;
+}
+.step1-4{
+    margin:2rem 0 0;
 }
