@@ -1,0 +1,220 @@
+*{margin:0;padding:0;}
+p{margin:0;padding:0;}
+html{width:100%;font-size: 62.5%;}
+body{
+    font-family: "Microsoft YaHei", serif;
+    font-weight: normal;
+    background: #fafafa;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+h3{
+    font-size: 1.8rem;
+    color:#333;
+    font-weight: 600;
+}
+.top-green{
+    background: #29b078;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a{
+        padding:30px;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a:hover {
+        border-bottom: 5px solid #fff;
+        background: #29b078;
+    }
+}
+.top-green img{
+    margin-top: 15px;
+}
+.header-top .span{
+    color:#29b078;
+    font-size:1.4rem;
+    margin-left:10%;
+}
+.img{display:inline-block;background:url(images/img.png) no-repeat;}
+.weibo{
+    height:25px;width:25px;background-position: -38px 0;
+}
+.qq{
+    height:25px;width:25px;background-position: -63px 0;
+}
+.weixin{
+    height:25px;width:25px;background-position: -13px 0;
+}
+.advantage1{
+    margin-top: 30%;
+}
+
+.efficient-img{height:63px;width:45px;background-position: -115px 0;}
+.standard-img{height:63px;width:60px;background-position: -215px 0;}
+.contacts-img{height:63px;width:55px;background-position: -160px 0;}
+.icon-1{height:13px;width:13px;background-position: 0 0;}
+.advantage1 p{
+    font-size: 1.6rem;
+    color:#999;
+    line-height: 2.6rem;
+}
+.advantage1 h3{
+    margin:30px 0;
+}
+.left-border{
+    padding: 15% 20% 10% 20%;
+    border-left:2px dashed #999;
+}
+
+.learn li{display: inline-block;}
+h3{
+    margin:5rem 0 2rem;
+}
+.learn li p{
+    display: inline-block;
+    font-size: 1.4rem;
+    color: #999;
+    margin-top:5px;
+    width: 12rem;
+    text-align: left;
+}
+.circle{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff;
+    color: #29b078;
+    font-size: 1.8rem;
+    line-height: 60px;
+    text-align: center;
+    margin-right:8px;
+}
+.next{
+    height:26px;width:27px;background-position: -88px 0;
+    display: inline-block;
+}
+.step1-4{
+    margin:2rem 0 0;
+}
+
+.student{
+    display: inline-block;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    text-align: center;
+    margin:3% 0;
+}
+.touxiang{
+    display: inline-block;
+    margin: 20px 0 35px 0;
+}
+.student h4{
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+.student p{
+    padding: 0 20px 30px;
+    text-align: left;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #999;
+}
+.more{margin-top:1%;}
+.circle2{
+    width: 12px;height: 12px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}
+.circle2:hover{background: #29b078;}
+
+.logo2{
+    background: #fff;
+}
+.logo2 div{
+    display: inline-block;
+    width: 210px;
+    padding:86px 0;
+}
+.logo2 div:hover{
+    -moz-box-shadow:0 0 20px #666;
+    -webkit-box-shadow:0 0 20px #666;
+    box-shadow:0 0 20px #666;
+}
+
+.link li{
+    display: inline-block;
+    width: 70px;
+    margin: 15px 23px;
+}
+.link{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.white{
+    background: #fff;
+    margin-top: 12%;
+}
+.link li a{
+    color:#999;
+    font-size: 1.4rem;
+}
+.link li a:hover{border-bottom:1px solid #29b078;}
+
+.green{
+    background: #29b078;
+    font-size: 1.6rem;
+}
+.green .row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-top-left,.footer-top-center,.footer-top-right{
+    padding: 35px 0 35px 70px;
+}
+.footer-top-left .list{
+    margin-top:65px;
+}
+.footer-top-left .list span{
+    padding: 0 10px;
+    margin: 0 10px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    font-size: 1.4rem;
+}
+.footer-top-center .web a{
+    display: inline-block;
+    padding: 20px 0 5px 0;
+    margin-right: 35px;
+    font-size: 1.4rem;
+}
+.footer-top-center p{color:#fff;}
+.footer-top-right img{
+    border:7px solid #fff;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.footer-top-right p{color: #fff;}
+.footer-bottom{
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+    font-size: 1.2rem;
+    color: #fff;
+}
