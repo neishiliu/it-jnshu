@@ -28,9 +28,9 @@ h3{
         padding:30px;
         font-size: 1.6rem;
         font-weight: 500;
+        border-bottom: 5px solid #29b078;
     }
-}
-@media (min-width: 768px) {
+    .navbar-nav > li> .top-selected{border-bottom: 5px solid #fff;}
     .navbar-nav > li > a:hover {
         border-bottom: 5px solid #fff;
         background: #29b078;
@@ -38,11 +38,6 @@ h3{
 }
 .top-green img{
     margin-top: 15px;
-}
-.header-top .span{
-    color:#29b078;
-    font-size:1.4rem;
-    margin-left:10%;
 }
 .img{display:inline-block;background:url(images/img.png) no-repeat;}
 .weibo{

@@ -1,0 +1,182 @@
+*{margin:0;padding:0;}
+p{margin:0;padding:0;}
+html{width:100%;font-size: 62.5%;}
+body{
+    font-family: "Microsoft YaHei", serif;
+    font-weight: normal;
+    background: #fafafa;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+h3{
+    font-size: 1.8rem;
+    color:#333;
+    font-weight: 600;
+}
+.top-green{
+    background: #29b078;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a{
+        padding:30px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        border-bottom: 5px solid #29b078;
+    }
+    .navbar-nav > li > .top-selected{border-bottom: 5px solid #fff;}
+    .navbar-nav > li > a:hover {
+        border-bottom: 5px solid #fff;
+        background: #29b078;
+    }
+}
+.top-green img{
+    margin-top: 15px;
+}
+.img{display:inline-block;background:url(images/img.png) no-repeat;}
+.weibo{
+    height:25px;width:25px;background-position: -38px 0;
+}
+.qq{
+    height:25px;width:25px;background-position: -63px 0;
+}
+.weixin{
+    height:25px;width:25px;background-position: -13px 0;
+}
+
+.green{
+    background: #29b078;
+    font-size: 1.6rem;
+}
+.green .row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-top-left,.footer-top-center,.footer-top-right{
+    padding: 35px 0 35px 70px;
+}
+.footer-top-left .list{
+    margin-top:65px;
+}
+.footer-top-left .list span{
+    padding: 0 10px;
+    margin: 0 10px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    font-size: 1.4rem;
+}
+.footer-top-center .web a{
+    display: inline-block;
+    padding: 20px 0 5px 0;
+    margin-right: 35px;
+    font-size: 1.4rem;
+}
+.footer-top-center p{color:#fff;}
+.footer-top-right img{
+    border:7px solid #fff;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.footer-top-right p{color: #fff;}
+.footer-bottom{
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+/***返回连接部分****/
+.back-link{font-size: 1.6rem;padding:30px 0;color:#333;}
+.back-link span{color:#29b078;}
+.back-link a{color:#333;text-decoration: none;}
+.back-link a:hover{color:#29b078;}
+
+/***左侧连接部分****/
+h3{margin-top: 0;}
+.cooperation{
+    background: #fff;
+    border-radius:5px;
+    -moz-box-shadow:0 0 10px #cacaca;
+    -webkit-box-shadow:0 0 10px #cacaca;
+    box-shadow:0 0 10px #cacaca;
+}
+.cooperation h3{
+    font-size: 1.6rem;
+    padding:20px 0;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+}
+.cooperation ul li{
+    margin-left: 35%;
+}
+.cooperation ul li a{
+    font-size: 1.4rem;
+    margin:20px 0;
+    color: #29b078;
+    display:inline-block;
+}
+.cooperation .circle{
+    width: 10px;
+    height :10px;
+    background: url(images/point1.png) no-repeat;
+    display: inline-block;
+    margin-right: 15px;
+}
+.cooperation ul li a:hover{color: #ff650e}
+.cooperation ul li a:hover .circle{
+    background: url(images/point2.png) no-repeat;
+}
+.cooperation ul li{margin-left:75px;}
+.cooperation ul {
+    list-style: none;
+}
+.cooperation .selected { color: #ff650e;}
+.cooperation .selected .circle{background: url(images/point2.png) no-repeat;}
+
+/***右侧介绍部分****/
+.introduce{
+    background: #fff;
+    border-radius:5px;
+    -moz-box-shadow:0 0 10px #cacaca;
+    -webkit-box-shadow:0 0 10px #cacaca;
+    box-shadow:0 0 10px #cacaca;
+}
+.introduce1 img{
+    display: inline-block;
+    padding:60px 40px 60px 80px;
+    float: left;
+}
+.introduce1 {
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    padding: 20px 60px 30px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+.introduce2{
+    clear: both;
+    padding:40px 60px 180px;
+    font-size: 1.4rem;
+    line-height: 2.8rem;
+    text-indent:2em;
+}
+.main{
+    margin-bottom: 10rem;
+}
+
+@media (max-width: 1000px) {
+    .cooperation ul li{
+        margin-left: 20px;
+        display: inline-block;
+    }
+    .selected{display:inline-block;}
+    .introduce{margin-top:5rem;}
+}
