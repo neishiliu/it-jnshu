@@ -1,0 +1,197 @@
+@charset "utf-8";
+*{margin:0;padding:0;}
+p{margin:0;padding:0;}
+html{width:100%;font-size: 62.5%;}
+body{
+    font-family: "Microsoft YaHei", serif;
+    font-weight: normal;
+    background: #fafafa;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color:#fff;
+    text-decoration: none;
+    border-bottom: 1px solid #fff;
+}
+h3{
+    font-size: 1.8rem;
+    color:#333;
+    font-weight: 600;
+}
+.top-green{
+    background: #29b078;
+}
+.line-height{
+	height: 30px;
+	line-height:30px;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li > a{
+        padding:30px;
+        font-size: 1.6rem;
+        font-weight: 500;
+        border-bottom: 5px solid #29b078;
+    }
+    .navbar-nav > li > .top-selected{border-bottom: 5px solid #fff;}
+    .navbar-nav > li > a:hover {
+        border-bottom: 5px solid #fff;
+        background: #29b078;
+    }
+}
+.top-green img{
+    margin-top: 15px;
+}
+.green{
+    background: #29b078;
+    font-size: 1.6rem;
+}
+.green .row{
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-top-left,.footer-top-center,.footer-top-right{
+    padding: 35px 0 35px 70px;
+}
+.footer-top-left .list{
+    margin-top:65px;
+}
+.footer-top-left .list span{
+    padding: 0 10px;
+    margin: 0 10px;
+    border-left:1px solid #fff;
+    border-right:1px solid #fff;
+    font-size: 1.4rem;
+}
+.footer-top-center .web a{
+    display: inline-block;
+    padding: 20px 0 5px 0;
+    margin-right: 35px;
+    font-size: 1.4rem;
+}
+.footer-top-center p{color:#fff;}
+.footer-top-right img{
+    border:7px solid #fff;
+    margin-left: 2px;
+    margin-top: 7px;
+}
+.footer-top-right p{color: #fff;}
+.footer-bottom{
+    text-align: center;
+    height:30px;
+    line-height: 30px;
+    border-top: 1px solid #32c086;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+
+.back-link{font-size: 1.6rem;padding:30px 15px;color:#333;border-bottom: 1px solid #d0d6d9;}
+.back-link span{color:#29b078;}
+.back-link a{color:#333;text-decoration: none;}
+.back-link a:hover{color:#29b078;}
+
+.direction li{
+	display:inline-block;
+	font-size:1.4rem;
+	margin:20px 0;
+	}
+.gray{color:#999;}
+.direction li a{
+	color:#333;
+	margin:0 15px;
+	padding:4px;
+}
+.direction li a:hover{background:#29b078;color:#fff;}
+
+.all .title{
+	padding:30px 0;
+	border-bottom:1px solid #d0d6d9;
+	}
+.title h1{
+	font-size:1.6rem;
+	color:#333;
+	}
+.frontend1{
+	display:inline-block;
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 8px #ddd;
+	margin:45px 0 30px;
+	position:relative;
+	padding:0;
+	}
+table{
+	width:100%;
+	}
+	
+/***单个卡片前面三行样式开始***/
+.frontend1 .top  .row1 td img{
+	display:inline-block;
+	margin:20px 10px;
+	float:left;
+	}
+.frontend1 .top  tr td h2{
+	font-size:1.6rem;
+	padding:35px 0 20px;
+	}
+.frontend1 .top  tr td p{
+	font-size:1.2rem;
+	}
+.frontend1 .top .row2 td{
+	padding:10px ;
+	border-top:1px solid #edf1f2;
+	border-bottom:1px solid #edf1f2;
+	border-right:1px solid #edf1f2;
+	}
+.frontend1 .top .row2 td{text-align:left;font-size:1.2rem;color:#999;}
+.frontend1 .top .row2 img{display:inline-block; margin:0 10px;}
+.frontend1 .top .row2  .stare2{ margin:0}
+.frontend1 .top .row2 .red{padding-left:10px;color:#f01400;}
+/***单个卡片前面三行样式结束***/
+
+/***单个卡片后面部分样式开始***/
+.frontend1 .bottom  tr td{
+	padding:10px ;
+	border-top:1px solid #edf1f2;
+	border-bottom:1px solid #edf1f2;
+	border-right:1px solid #edf1f2;
+	}
+.frontend1 .bottom  tr .gray{
+	text-align: center;
+}
+.frontend1 .bottom  tr .left{float:left;}
+.frontend1 .bottom  tr .right{float:right;}
+.frontend1 .bottom  tr b .red{color:#f01400;}
+.frontend1 .bottom  tr b{font-size: 1.4rem;}
+/***单个卡片后面部分样式结束***/
+
+/***翻转卡片样式开始***/
+.frontend1 .reverse{
+	position:absolute;
+	top:0;
+	left:0;
+	font-size: 1.6rem;
+	font-weight: 500;
+	line-height: 2.2rem;
+	color: #fff;
+	height:465px;
+	border-radius: 5px;
+	z-index: 1;
+	background: rgba(0,0,0,0.8);
+	transform-style: preserve-3d;
+	transform:rotateY(90deg);
+}
+.frontend1 .reverse h4{
+	text-align: center;
+	padding-bottom:35px;
+	font-weight: 500;
+}
+.frontend1 .reverse p{padding: 0 40px;text-indent: 2em;}
+.all .frontend1:hover .reverse{
+	transition:transform 0.5s linear 0.2s;
+	transform:rotateY(0deg);
+}
+/***翻转卡片样式结束***/
