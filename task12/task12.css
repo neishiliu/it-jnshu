@@ -1,0 +1,157 @@
+@charset(utf-8);
+*{
+	margin:0;
+	padding:0;
+}
+p{
+	margin:0;
+	padding:0;
+}
+body{
+    font-size: 62.5%;
+    font-family: "Microsoft Yahei", serif;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%!important;
+  }
+}
+a{text-decoration: none;}
+ul{list-style: none;}
+
+/**顶部**/
+.header{background: #1d7ad9;}
+.left{
+    color:#fff;
+    font-size: 1.4rem;
+    line-height: 40px;
+    float:left;
+}
+.right{
+    font-size: 1.6rem;
+    padding: 0 0;
+    float: right;
+}
+.top .right a{
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+}
+.top .right a:hover{
+    background: #fff;
+    color:#1d7ad9;
+    text-decoration: none;
+}
+.top .right span{
+    background: #fff;
+    padding: 0 35px;
+    line-height: 40px;
+    display: inline-block;
+}
+/**屏幕变小时使按钮在左边**/
+@media screen and (max-width: 768px) {
+  .left {
+    float:none;
+  }
+  .right{
+    float:left;
+  }
+}
+
+/**导航**/
+.header-bottom{background: #f9f9f9;position: relative;}
+nav.col-xs-12{text-align: right;}
+nav.col-xs-12>ul{
+    display: inline-block;
+    padding:20px 0;
+}
+nav.col-xs-12>ul li{margin-left:10px;}
+.nav-pills>li.active>a{
+	background:#1d7ad9;
+}
+.nav-pills>li>a{
+	font-size:1.6rem;
+	box-shadow:2px 3px 10px #888;
+}
+
+/**小屏导航**/
+.dropdown{
+    position: absolute;
+    right: 15px;
+    top:-40px;
+}
+.btn{
+    padding: 6px 29px;
+}
+.dropdown-menu{
+    min-width: 100px;
+}
+
+/**步骤**/
+.step{
+	margin-top:5%;
+	text-align: right;
+	font-size:0;
+}
+.step li{
+	width: 25%;
+    border-top: 5px solid #ccc;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.6rem;
+    position: relative;
+}
+.step .selected{
+	border-top: 5px solid #ff7f02;
+	color:#ff7f02;
+}
+.step .step1:before{
+	content: "1";
+    font-size: 1.6rem;
+    color: #fff;
+    background: #ff7f02;
+    padding: 0 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    margin-left: -8px;
+}
+.step .step2:before{
+	content: "2";
+    font-size: 1.6rem;
+    color: #fff;
+    background: #ccc;
+    padding: 0 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    margin-left: -8px;
+}
+.step .step3:before{
+	content: "3";
+    font-size: 1.6rem;
+    color: #fff;
+    background: #ccc;
+    padding: 0 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    margin-left: -8px;
+}
+.step .step4:before{
+	content: "4";
+    font-size: 1.6rem;
+    color: #fff;
+    background: #ccc;
+    padding: 0 6px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: -12px;
+    margin-left: -8px;
+}

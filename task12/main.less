@@ -1,0 +1,303 @@
+@charset"utf-8";
+.clear(){margin:0;padding:0;}
+*{.clear;}
+p{.clear;}
+body{
+    font-size: 62.5%;
+    font-family: "Microsoft Yahei", serif;
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 45%!important;
+  }
+  option{
+    	font-size:13px!important;
+    }
+}
+a{text-decoration: none;}
+ul{list-style: none;}
+.bac(@c:#1d7ad9){background-color:@c; }
+.font(sm){font-size: 1.4rem;line-height: 40px;}
+.font(md){font-size: 1.6rem;line-height: 40px;}
+.font(lg){font-size: 1.8rem;line-height: 40px;}
+.float(@fangxiang){float:@fangxiang;}
+.transition(@yangshi:background-color,@t:0.3s,){
+	transition:@yangshi @t linear;
+}
+.position(r){position:relative;}
+.position(a){position: absolute;}
+
+//顶部
+.header{.bac;}
+.left{
+	.float(left);
+	.font(sm);
+	color:#fff;
+}
+.right{
+	.float(right);
+	.font(md);
+	padding:0;
+	a{
+		color: #fff;
+	    display: inline-block;
+	    height: 40px;
+	    padding: 0 10px;
+	    .transition();
+	    &:hover{
+	    	.bac(#fff);
+	    	color:#1d7ad9;
+	    	text-decoration: none;
+	    }
+	}
+	span{
+		background: #fff;
+	    padding: 0 35px;
+	    line-height: 40px;
+	    display: inline-block;
+	}
+}
+
+//屏幕变小时使按钮在左边
+@media screen and (max-width: 768px) {
+  .left {
+    float:none;
+  }
+  .right{
+   .float(left);
+  }
+}
+
+//导航
+.header-bottom{
+	.bac(#f9f9f9);
+	.position(r);
+	nav.col-xs-12{
+		text-align: right;
+		ul{
+		    display: inline-block;
+		    padding:20px 0;
+		    li{margin-left:10px;}
+		}
+		.nav-pills>li.active>a{
+			background:#1d7ad9;
+		}
+		.nav-pills>li>a{
+			font-size:1.6rem;
+			box-shadow:2px 3px 10px #888;
+		}
+	}
+}
+
+//小屏导航
+.dropdown{
+	.position(a);
+	right: 15px;
+    top:-40px;
+    .btn{
+	    padding: 6px 29px;
+	}
+	.dropdown-menu{
+	    min-width: 100px;
+	    li>a:hover{color:#1d7ad9;}
+	}
+}
+
+//步骤
+
+.yuan(@cc:#ccc){
+	background-color: @cc;
+    font-size: 1.6rem;
+    color: #fff;
+    padding: 0 6px;
+    border-radius: 50%;
+    position:absolute;
+    left: 50%;
+    top: -12px;
+    margin-left: -8px;
+}
+.step{
+	margin-top:5%;
+	text-align: right;
+	font-size:0;
+	li{
+		width: 25%;
+	    border-top: 5px solid #ccc;
+	    text-align: center;
+	    padding: 20px 0;
+	    font-size: 1.6rem;
+	    .position(r);
+	}
+	.selected{
+		border-top: 5px solid #ff7f02;
+		color:#ff7f02;
+	}
+	.step1:before{
+		content: "1";
+		.yuan(#ff7f02);
+	}
+	.step2:before{
+		content: "2";
+		.yuan();
+	}
+	.step3:before{
+		content: "3";
+		.yuan();
+	}
+	.step4:before{
+		content: "4";
+		.yuan();
+	}
+}
+
+// 主体部分
+.border(@radius:5px){border:1px solid #e7e7e7;border-radius: @radius;}
+.main-contant{padding: 0 15px;.border();}
+.container{
+	h1{
+		font-size: 2.2rem;
+	    font-weight: 500;
+	    padding-left: 5px;
+	    margin: 0 0 1.2% 5px;
+	    border-left: 4px solid #1d7ad9;
+	}
+	.list-step{
+		background: #f2f2f2;
+	    color: #1d7ad9;
+	    font-size: 1.8rem;
+	    padding: 1.2% 0 1.2% 2.5%;
+	    .border(0);
+	}
+}
+.bcimg(){background-image: url(images/img.png) ;display: inline-block;margin-bottom: -2.5px;}
+.main .row{
+	.step1-img{
+		width: 24px;
+		height: 15px;
+		.bcimg();
+		background-position: 0 -40px;
+	}
+	.step2-img{
+		width: 24px;
+		height: 20px;
+		.bcimg();
+		background-position: 0 0px;
+	}
+	.step3-img{
+		width: 24px;
+		height: 20px;
+		.bcimg();
+		background-position: 0 -20px;
+	}
+}
+.main .list-select{
+	padding:3% 3.7%;
+	.text-width{
+	  	width:50%;
+	  	margin:0 15px 0 5px;
+	  }
+	.align{
+		line-height: 45px;
+	}
+	.lg-align{
+		line-height: 90px;
+	}
+	label{
+		.font(lg);
+		font-weight:200;
+	}
+	.next{
+		padding:0 20px;
+	    line-height: 50px;
+	    font-size: 2.4rem;
+	    margin: 0 auto;
+	    border-radius: 5px;
+	    background: #e15053;
+	    color: #fff;
+	    border:#fff;
+	}
+}
+.last{
+		margin:8% 0 15%;
+	}
+
+//修改单选钮样式
+
+//隐藏原样式
+input[type="radio"]{
+    display: inline-block;
+    margin-top: 0;
+    opacity: 0;
+}
+
+//为新样式腾出空间
+.style{
+	padding-left: 27px;
+    margin-left: -20px;
+    background: url(images/yuan2.png) left 50% no-repeat;
+}
+
+//设置选中之后的样式
+input[type="radio"]:checked + .style{
+	background: url(images/yuan1.png) left 50% no-repeat;
+}
+
+//修改下拉选项样式
+select{
+	appearance: none;//取消原样式
+    -moz-appearance: none;
+	-webkit-appearance: none;
+    color: #999;
+    border: 1px solid #e8e8e8;
+    line-height: normal;
+    padding: 6.5px 30px 6.5px 3%;
+    background: url(images/select.png) right 50% no-repeat;
+    option{
+    	font-size:1.6rem;
+    }
+}
+
+//底部样式
+.footer .col-xs-12{
+	text-align: top;
+	.font(lg);
+	color:#999;
+	margin:10% 0 5%;
+	a{color:#999;}
+	a:hover{text-decoration: none;color:#1d7ad9;}
+	.contact{
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+		text-align: right;
+		p{
+			margin-right:85px;
+		}
+		img{
+			float:right;
+		}
+	}
+}
+@media screen and (max-width: 980px) {
+	.footer .col-xs-12{
+		margin:0;
+	}
+	.contact{
+		float: left;
+		p{
+			text-align: left;
+		}
+	}
+}
+
+.banquan{
+	color:#fff;
+	font-size:1.2rem;
+	text-align: center;
+	line-height: 2.4rem;
+	.bac();
+}
+.body{width:20px;}
+
+
+
+

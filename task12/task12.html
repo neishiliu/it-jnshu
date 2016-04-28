@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+    <!-- Bootstrap -->
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--你自己的样式文件 -->
+    <!-- <link href="task12.css" rel="stylesheet"> -->
+    <link href="main.css" rel="stylesheet">
+    <!-- 以下两个插件用于在IE8以及以下版本浏览器支持HTML5元素和媒体查询，如果不需要用可以移除 -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<title>task12</title>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="row">
+			    <div class="col-xs-12 top">
+			        <p class="left">客服热线：010-594-78634</p>
+			        <p class="right"><a href="#">登陆</a><span>注册</span> </p>
+			    </div>
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container hidden-xs">
+			<nav class="col-xs-12">
+	           <ul class="nav nav-pills">
+				   <li class="active"><a href="#">首页</a></li>
+				   <li><a href="#">在线定制</a></li>
+				   <li><a href="#">标准箱</a></li>
+				   <li><a href="#">品质保证</a></li>
+				</ul>
+			 </nav>
+		</div>
+		<div class="dropdown visible-xs">
+		   <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" 
+		      data-toggle="dropdown">
+		      导航
+		      <span class="caret"></span>
+		   </button>
+		   <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">首页</a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">在线定制</a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">
+		            标准箱
+		         </a>
+		      </li>
+		      <li role="presentation">
+		         <a role="menuitem" tabindex="-1" href="#">
+		            品质保证
+		         </a>
+		      </li>
+		   </ul>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="step col-xs-12 col-md-6 col-md-offset-6">
+				<ul class="list-inline">
+					<li class="step1 selected">1.定制纸箱</li>
+					<li class="step2">2.选择数量</li>
+					<li class="step3">3.上传附件</li>
+					<li class="step4">4.确认下单</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>请按照以下步骤来定制您的纸箱</h1>
+				</div>
+			</div>
+			<div class="main-contant">
+				<div class="row">
+					<div class="col-xs-12 list-step">
+						<span class="step1-img"></span>
+		                选择箱型
+					</div>
+				</div>
+				<div class="row list-select">
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="col-xs-6 col-sm-2">		
+				                    <input type="radio" name="box-type" value="type1" id="type1" checked>
+				                    <label for="type1" class="style">对口箱</label>  
+							</div>
+							<div class="col-xs-6 col-sm-2">
+									<input type="radio" name="box-type" value="type2" id="type2">
+			                    	<label for="type2" class="style">飞机盒</label>
+							</div>
+							<div class="col-xs-6 col-sm-2">
+									<input type="radio" name="box-type" value="type3" id="type3">
+			                    	<label for="type3" class="style">天地盖</label>
+							</div>
+							<div class="col-xs-6 col-sm-2 align">
+								<select name="details">
+			                        <option value="details1">查看详情</option>
+			                        <option value="details2">查看详情a</option>
+			                        <option value="details3">查看详情b</option>
+		                    	</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 list-step">
+						<span class="step2-img"></span>
+		                确定尺寸
+					</div>
+				</div>
+				<div class="row  list-select">
+					<div class="col-xs-12 col-md-10">
+						<div  class="row">
+							<div class="col-xs-12 col-md-2">
+								<input type="radio" name="size" value="size1" id="size1" checked>
+		                    	<label for="size1" class="style">外径</label>
+							</div>
+							<div class="col-xs-12 col-md-3 text-center">
+								<label for="size1-long">长</label><input type="text" name="size1-long" id="size1-long" class="text-width"><label for="size1-long">mm</label>
+							</div>
+							<div class="col-xs-12 col-md-3 text-center">
+			                    <label for="size1-width">宽</label><input type="text" name="size1-width" id="size1-width" class="text-width"><label for="size1-width">mm</label>
+			                </div>
+			                <div class="col-xs-12 col-md-3 text-center">
+			                    <label for="size1-height">高</label><input type="text" name="size1-height" id="size1-height" class="text-width"><label for="size1-height">mm</label>
+							</div>
+						</div>
+						<div  class="row">
+							<div class="col-xs-12 col-md-2">
+								<input type="radio" name="size" value="size2" id="size2" >
+		                    	<label for="size2" class="style">内径</label>
+							</div>
+							<div class="col-xs-12 col-md-3 text-center">
+								<label for="size2-long">长</label><input type="text" name="size2-long" id="size2-long" class="text-width"><label for="size2-long">mm</label>
+							</div>
+							<div class="col-xs-12 col-md-3 text-center">
+			                    <label for="size2-width">宽</label><input type="text" name="size2-width" id="size2-width" class="text-width"><label for="size2-width">mm</label>
+			                </div>
+			                <div class="col-xs-12 col-md-3 text-center">
+			                    <label for="size2-height">高</label><input type="text" name="size2-height" id="size2-height" class="text-width"><label for="size2-height">mm</label>
+							</div>
+						</div>
+					</div>
+					<div class="col-xs-12 col-md-2 text-center lg-align">
+						<select name="details">
+		                        <option value="details1">查看详情</option>
+		                        <option value="details2">查看详情a</option>
+		                        <option value="details3">查看详情b</option>
+		                </select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-xs-12 list-step">
+						<span class="step3-img"></span>
+		                选择材质
+					</div>
+				</div>
+				<div class="row  list-select">
+					<div class="col-xs-12">
+						<div class="row">
+							<div class="col-xs-6 col-md-4 col-lg-2">
+								<input type="radio" name="texture" value="texture1" id="texture1" checked>
+		                    	<label for="texture1" class="style">三层A瓦优质</label>
+							</div>
+							<div class="col-xs-6 col-md-4 col-lg-2">
+								<input type="radio" name="texture" value="texture2" id="texture2">
+		                    	<label for="texture2" class="style">三层A瓦优质</label>
+							</div>
+							<div class="col-xs-6 col-md-4 col-lg-2">
+								<input type="radio" name="texture" value="texture3" id="texture3">
+		                    	<label for="texture3" class="style">三层A瓦优质</label>
+							</div>
+							<div class="col-xs-6 col-md-4 col-lg-2">
+								<input type="radio" name="texture" value="texture4" id="texture4">
+		                    	<label for="texture4" class="style">三层A瓦优质</label>
+							</div>
+							<div class="col-xs-6 col-md-4 col-lg-2">
+								<input type="radio" name="texture" value="texture5" id="texture5">
+		                    	<label for="texture5" class="style">三层A瓦优质</label>
+							</div>
+							<div class="col-xs-6 col-md-4 col-lg-2  align">
+								<select name="details">
+			                        <option value="details1">查看详情</option>
+			                        <option value="details2">查看详情a</option>
+			                        <option value="details3">查看详情b</option>
+		                    	</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row  list-select text-center last">
+					<div class="col-xs-12">
+						<input type="submit" value="下一步" name="next" class="next">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-md-4">
+					<p class="title"><a href="#">51包装网——纸箱包装首选服务平台</a> </p>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<ul class="link list-inline">
+		                <li><a href="#">关于我们</a> </li>
+		                <li><a href="#">配送流程</a> </li>
+		                <li><a href="#">联系我们</a> </li>
+		                <li><a href="#">下单指南</a> </li>
+		                <li><a href="#">媒体介绍</a> </li>
+		            </ul>
+				</div>
+				<div class="col-xs-12 col-md-4">
+					<div class="contact">
+		                <img src="images/weixin.png" alt="关注微信">
+		                <p>TEL：400-0000-000<br/>
+		                企业QQ：123456789<br/>
+		                微信号：XXXXXXXXX</p>
+		            </div>
+				</div>
+			</div>
+		</div>
+		<div class="banquan">
+			<p>北京五一包装科技有限公司Copyright©2015  51baozhuang.com015   All rights reserved.   京icp备99999999-1</p>
+		</div>
+	</div>
+
+<!-- 如果要使用Bootstrap的js插件，必须先调入jQuery -->
+<script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+<!-- 包括所有bootstrap的js插件或者可以根据需要使用的js插件调用　-->
+<script src="http://apps.bdimg.com/libs/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+</body>
+</html>
