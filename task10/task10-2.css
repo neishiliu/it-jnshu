@@ -39,6 +39,13 @@ h3{
 .top-green img{
     margin-top: 15px;
 }
+.text-right ul{
+    margin:0;
+    padding:8px 0 3px;
+}
+.kefu{
+    margin: 10px 0;
+}
 .img{display:inline-block;background:url(images/img.png) no-repeat;}
 .weibo{
     height:25px;width:25px;background-position: -38px 0;
@@ -48,6 +55,9 @@ h3{
 }
 .weixin{
     height:25px;width:25px;background-position: -13px 0;
+}
+@media screen and (max-width:640px){
+    .navbar-header>a>img{width:60%;}
 }
 
 .green{

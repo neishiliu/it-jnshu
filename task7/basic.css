@@ -80,6 +80,7 @@ i{display:inline-block;}
     font-weight: 500;
     font-size: 1.6rem;
 }
+.header-bottom .selected{border-bottom:5px solid #fff;}
 nav li a{padding:47px 25px 37px;}
 nav li a:hover{border-bottom: 5px solid #fff;}
 /*****网页底部统一样式*****/

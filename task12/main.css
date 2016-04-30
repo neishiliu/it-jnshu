@@ -216,6 +216,7 @@ ul {
 .main .list-select .text-width {
   width: 50%;
   margin: 0 15px 0 5px;
+  height: 3rem;
 }
 .main .list-select .align {
   line-height: 45px;
