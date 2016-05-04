@@ -99,12 +99,11 @@ h3{
 .direction li{
 	display:inline-block;
 	font-size:1.4rem;
-	margin:20px 0;
+	margin:1.5% 0;
 	}
 .gray{color:#999;}
 .direction li a{
 	color:#333;
-	margin:0 15px;
 	padding:4px;
 }
 .direction li a:hover{background:#29b078;color:#fff;}

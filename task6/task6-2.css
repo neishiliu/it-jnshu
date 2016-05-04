@@ -100,20 +100,30 @@ footer{
     max-width: 640px;
     padding-top: 4%;
 }
+a{
+    color:#fff;
+    text-decoration: none;
+}
 .again,.upload{
     padding:4% 7.8%;
     border-radius: 15px;
     font-size:4rem;
     font-family:"Microsoft YaHei",serif;
     color:#fff;
-    margin: 0 4% 4% 7%;
-    float:left;
 }
 .again{
     background:#f66f6f;
+    margin-left: 7%;
+    margin-bottom: 4%; 
+    float:left;
+    width:20%;
 }
 .upload{
     background:#fbb435;
+    margin-right: 7%;
+    margin-bottom: 4%;
+    float: right;
+    width:24%;
 }
 @media screen and (max-width: 640px){
     html{

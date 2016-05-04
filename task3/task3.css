@@ -18,9 +18,14 @@ header{
   padding-left:3.5%;
 }
 #logo{
-  width:181px;
+  text-align: center;
   margin:0px auto;
   padding-top:4.2%;
+}
+img {
+    display: inline-block;
+    max-width: 60%;
+    height: auto;
 }
 #wenzi{
   color:#fff;

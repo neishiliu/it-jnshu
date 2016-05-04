@@ -224,3 +224,8 @@ h3{
     font-size: 1.2rem;
     color: #fff;
 }
+@media screen and (max-width:770px){
+    .left-border{
+        border-left:none;
+    }
+}

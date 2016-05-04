@@ -4,7 +4,6 @@ html{
     font-family:"Microsoft Yahei",serif;
 }
 body{
-    min-width:480px;
     max-width:720px;
     margin:0 auto;
 }
@@ -21,13 +20,14 @@ header img{
     position:absolute;
     top:25%;
     right:5%;
+    width:7%;
 }
 .center a{
     text-decoration: none;
     font-size: 3.4em;
     line-height: 2.7;
     text-align: center;
-    padding: 20px 25px;
+    padding: 3% 3.9%;
 }
 .left{
     background: #55a8b3;
@@ -77,24 +77,28 @@ table{
     margin-left:1em;
 }
 footer{
-    position:fixed;
-    bottom:0;
-    background:#f8fafb;
+    position: fixed;
+    bottom: 0;
+    background: #f8fafb;
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
 }
-.foot{
-    display:flex;
-    min-width:720px;
-    align-items:center;
-    text-align:center;
+img{
+    max-width: 100%;
 }
-.foot .foot-left{
-    flex:1;
+.foot-left{
+   display: inline-block;
+   width:11%;
 }
-.foot .foot-center{
-    flex:1
+.foot-center{
+   display: inline-block;
+   margin: 0 12%;
+   width:20%;
 }
-.foot .foot-right{
-    flex:1;
+.foot-right{
+   display: inline-block;
+   width:11%;
 }
 .foot-left p{
      font-size:2.6em;
